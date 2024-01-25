@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T07:18:06 WET" name="Default suite" finished-at="2024-01-25T07:18:12 WET" duration-ms="5741">
+  <suite started-at="2024-01-25T07:20:23 WET" name="Default suite" finished-at="2024-01-25T07:20:30 WET" duration-ms="6626">
     <groups>
     </groups>
-    <test started-at="2024-01-25T07:18:06 WET" name="Default test" finished-at="2024-01-25T07:18:12 WET" duration-ms="5741">
+    <test started-at="2024-01-25T07:20:23 WET" name="Default test" finished-at="2024-01-25T07:20:30 WET" duration-ms="6626">
       <class name="Testcases.TC002_Login">
-        <test-method is-config="true" signature="startBrower()[pri:0, instance:Testcases.TC002_Login@72967906]" started-at="2024-01-25T07:18:06 WET" name="startBrower" finished-at="2024-01-25T07:18:12 WET" duration-ms="5163" status="PASS">
+        <test-method is-config="true" signature="startBrower()[pri:0, instance:Testcases.TC002_Login@72967906]" started-at="2024-01-25T07:20:23 WET" name="startBrower" finished-at="2024-01-25T07:20:28 WET" duration-ms="4980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrower -->
-        <test-method signature="login()[pri:0, instance:Testcases.TC002_Login@72967906]" started-at="2024-01-25T07:18:12 WET" name="login" finished-at="2024-01-25T07:18:12 WET" duration-ms="545" status="PASS">
+        <test-method signature="login()[pri:0, instance:Testcases.TC002_Login@72967906]" started-at="2024-01-25T07:20:28 WET" name="login" finished-at="2024-01-25T07:20:30 WET" duration-ms="1601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
