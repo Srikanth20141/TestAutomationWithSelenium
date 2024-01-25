@@ -1,15 +1,19 @@
 package Testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+
 public class TC002_Login extends Base{
-	
+
 	@Test
 	public void login() {
-		
-		//driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+		super.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		super.driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+		super.driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
+		super.driver.findElement(By.xpath("//Button[@type='submit']")).click();
 	}
 
 }

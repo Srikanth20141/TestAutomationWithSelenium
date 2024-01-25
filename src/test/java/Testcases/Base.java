@@ -6,12 +6,12 @@ import org.testng.annotations.BeforeTest;
 
 public class Base {
 	
-	WebDriver ldriver = null;
+	WebDriver driver = null;
 	
 	@BeforeTest
 	public void startBrower() {
-		ldriver = new ChromeDriver();
-		ldriver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	}
 
 }
