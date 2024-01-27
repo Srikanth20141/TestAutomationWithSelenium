@@ -10,8 +10,8 @@ public class TC002_Login extends Base{
 
 	@Test
 	public void login() {
-		super.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-		super.driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+		//super.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		//super.driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		super.driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 		super.driver.findElement(By.xpath("//Button[@type='submit']")).click();
 	}
